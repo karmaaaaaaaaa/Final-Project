@@ -1,0 +1,76 @@
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.2)50%, rgba(0,0,0,0.2)50%), url(10.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+body{
+background-color: black;
+}
+
+.info h1{
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+.info p{
+    color: white;
+    position: absolute;
+    top: 85%;
+    right: 30%;
+}
+.b1{
+   
+    position: absolute;
+    top: 8%;
+    left: 45%;
+    font-size: 1.5rem;
+    width: 100px;
+    height: 30px;
+    
+    background-color: #ff7200;
+    border-radius: 10px;
+    border: none;
+   cursor: pointer;
+    color: black;
+    transition: 0.4s ease;
+}
+.b2{
+    position: absolute;
+    top: 8%;
+    left: 80%;
+    font-size: 1.5rem;
+    width: 100px;
+    height: 30px;
+    
+    background-color: #ff7200;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    transition: 0.4s ease;
+}
+.b1:hover{
+    background-color: #fff;
+    color: black;
+}
+.b1 a {
+    text-decoration: none;
+    color: black;}
+.b2:hover{
+        background-color: #fff;
+        color: black;
+    }
+    .b2 a {
+        text-decoration: none;
+        color: black;}
+.info small{
+    color: white;
+    position: absolute;
+    top: 91%;
+    right: 25%;
+    width: 700px;
+}
